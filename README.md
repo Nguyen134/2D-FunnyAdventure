@@ -15,6 +15,6 @@ The adventure game
 * Nhấn `Build` &#8594; Chọn thư mục chứa bản dựng của ứng dụng &#8594; Nhấn `Select Folder`.
 * Chờ đến khi tiến trình build ứng dụng hoàn tất.
 
-**_Cách tải ứng dụng_**
-* Vào phần `Release` &#8594; Tải thư mục `FunnyAdventure.zip`
-* Giải nén và mở thư mục lên &#8594; Chọn `Funny Adventure.exe` để mở trò chơi
+## **Cách tải ứng dụng**
+* Vào phần `Releases` ở phía bên phải &#8594; Tải thư mục `FunnyAdventure.zip`
+* Giải nén và mở thư mục lên &#8594; Chọn `Funny Adventure.exe` để mở trò chơi.
