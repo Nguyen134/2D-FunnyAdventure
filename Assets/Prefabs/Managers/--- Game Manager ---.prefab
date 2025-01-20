@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7107341282479371957
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6799214905565048096}
+  - component: {fileID: 4405978506055803988}
+  m_Layer: 0
+  m_Name: --- Game Manager ---
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6799214905565048096
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7107341282479371957}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4405978506055803988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7107341282479371957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5afd3c5993851d4084cef9cd52bfe82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentLevel: 0
+  fruitHaveRandomLook: 1
+  fruitsCollected: 0
+  totalFruits: 0
+  canReActivate: 0
+  playerManager: {fileID: 4062833342249014606, guid: 9161ba5a3a4b65448bb928085dee2a6f, type: 3}
+  skinManager: {fileID: 5533361348235950395, guid: eb8d55895523c6040b6d86c192d2ed8a, type: 3}
+  audioManager: {fileID: 5665846491409497274, guid: a3da15196137b1e4b981dc3436971084, type: 3}
+  difficultyManager: {fileID: 4832227574023556928, guid: e3df2fd938d72754eaf840f5542f4964, type: 3}
+  objectCreator: {fileID: 6787845251357035872, guid: 63375de77f7ae9849a3f41de630f3e9c, type: 3}
